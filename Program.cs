@@ -1,15 +1,32 @@
-var builder = WebApplication.CreateBuilder(args);
+public class Program
+{
 
-// Add services to the container.
+    public static void Main(string[] args)
+    {
+    
+        var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+        builder.WebHost.ConfigureKestrel(options =>
+        {
+            options.ListenAnyIP(5000); // to listen for incoming http connection on port 5001
+           // options.ListenAnyIP(5001, configure => configure.UseHttps()); // to listen for incoming https connection on port 5001
+        });
 
-var app = builder.Build();
+        // Add services to the container.
 
-// Configure the HTTP request pipeline.
+        builder.Services.AddControllers();
 
-app.UseAuthorization();
 
-app.MapControllers();
+        var app = builder.Build();
 
-app.Run();
+    // Configure the HTTP request pipeline.
+
+        app.UseAuthorization();
+
+        app.MapControllers();
+
+        app.Run();
+    }
+
+
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KnH3lZDc4L3BGFscOymMav1jC2g3w9GQIQcZ7MddhxCKAC4OhsAzk8wkZyRrigiCXcmPF0zwYXt6OaVjrakLwg==",
+  "dgSpecHash": "zpIwYlH7aXLrktfxVMdnuMTZsXhqVzQM5RS7Lcs2BZ3XvLdXoklDgKnZWKLw5HdtVw6/YE4HHgvsE6FSiyJtrQ==",
   "success": true,
-  "projectFilePath": "E:\\DEV\\Other Projects\\AKSTest\\AKSTest\\AKSTest.csproj",
+  "projectFilePath": "E:\\DEV\\Other Projects\\AKSServer\\AKSTest.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
