@@ -9,14 +9,12 @@ namespace AKSTest.Controllers
         private readonly ILogger<MainController> _logger;
         private static int totalRequests = 0; // must restart app to reset
         private readonly static object logLock = new object();
-        private String logFilePath = "AKSServerTestLog-" + DateTime.Now.Ticks + ".log";
+        static String logFilePath = "AKSServerTestLog-" + DateTime.Now.Ticks + ".log";
 
         public MainController(ILogger<MainController> logger)
         {
             _logger = logger;
         }
-
-
 
         [HttpGet]
         public String Get()

@@ -17,11 +17,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DEV\\Other Projects\\AKSTest\\AKSTest\\AKSTest.csproj",
+      "projectUniqueName": "E:\\DEV\\Other Projects\\AKSServer\\AKSTest.csproj",
       "projectName": "AKSTest",
-      "projectPath": "E:\\DEV\\Other Projects\\AKSTest\\AKSTest\\AKSTest.csproj",
+      "projectPath": "E:\\DEV\\Other Projects\\AKSServer\\AKSTest.csproj",
       "packagesPath": "C:\\Users\\Kary\\.nuget\\packages\\",
-      "outputPath": "E:\\DEV\\Other Projects\\AKSTest\\AKSTest\\obj\\publish\\win-x64\\",
+      "outputPath": "E:\\DEV\\Other Projects\\AKSServer\\obj\\publish\\win-x64\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -70,6 +70,10 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[6.0.0, 6.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
             "version": "[6.0.0, 6.0.0]"
           },
           {
